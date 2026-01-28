@@ -1,0 +1,18 @@
+Subject: CONFIDENTIAL - Vendor Approval / اعتماد مورد
+
+Hello Team,
+Please review the attached vendor approval form.
+
+مرحباً،
+يرجى مراجعة نموذج اعتماد المورد المرفق.
+
+Vendor: ACME Industrial Supplies Ltd.
+رقم المورد: VND-ACME-00291
+Project / المشروع: PRJ-NEOM-UTIL-07
+Cost Center / مركز التكلفة: CC-4102
+
+Confidentiality Notice / تنبيه سرية:
+This email is confidential and intended only for the addressed recipients.
+هذه الرسالة سرية ومخصصة للمرسل إليه فقط.
+
+Thanks / شكراً

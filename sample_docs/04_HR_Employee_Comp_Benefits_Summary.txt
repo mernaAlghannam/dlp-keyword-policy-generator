@@ -1,0 +1,17 @@
+EMPLOYEE COMPENSATION & BENEFITS - CONFIDENTIAL
+
+Employee ID: EMP-104882
+Grade: G-12
+Department: Data Protection Management
+Base Salary: SAR 28,500 / month
+Housing Allowance: SAR 7,000 / month
+Transport Allowance: SAR 1,200 / month
+Annual Bonus Target: 18%
+
+Benefits:
+- Medical Plan: Premium
+- Education Support: Eligible
+- Leave Balance: 22 days
+
+Notes:
+This summary is confidential and for HR internal processing only.

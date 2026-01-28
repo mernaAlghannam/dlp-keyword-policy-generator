@@ -1,0 +1,22 @@
+SITE INSPECTION REPORT - INTERNAL / CONFIDENTIAL
+
+Facility: East Plant - Unit 12
+Inspection Date: 2026-01-21
+Inspection Team: HSE + Operations
+Work Permit Ref: WP-EP12-2026-00113
+
+Findings:
+- PPE non-compliance observed in Zone B (missing face shield).
+- Gas test record: H2S = 0 ppm, CO = 3 ppm, O2 = 20.9%
+- Hot work isolation checklist was completed but signatures missing for step 7.
+
+Equipment:
+- Compressor Tag: CMP-EP12-002
+- Maintenance Request: MR-EP12-88421
+
+Actions Required:
+1) Enforce PPE check at entry gate for Unit 12.
+2) Update permit workflow to require e-signature before activation.
+3) Re-train contractors on Hot Work SOP within 14 days.
+
+Distribution: Operations Manager, HSE Lead, Permit Office

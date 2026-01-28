@@ -1,0 +1,18 @@
+PROJECT STATUS UPDATE - CONFIDENTIAL
+
+Project Name: WAQI (Workplace Automated Quality Inspector)
+Owner: Digital Safety Initiatives
+Milestone: MVP Prototype Website
+Date: 2026-01-25
+
+Key Modules:
+- Digital Work Permit Workflow (PPE inspection, gas testing, site inspection)
+- Monitoring Dashboard (PPE violations, analytics, reporting)
+
+Risks:
+- Limited device access for testing (Aramco-approved devices only)
+- Dataset labeling effort for PPE detection
+
+Next Steps:
+- Finalize data schema for incidents and permit workflow
+- Integrate model inference service into the permit submission flow

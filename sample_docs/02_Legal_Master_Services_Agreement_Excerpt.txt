@@ -1,0 +1,26 @@
+MASTER SERVICES AGREEMENT (MSA) - CONFIDENTIAL (EXCERPT)
+
+Agreement ID: MSA-ACME-2025-09
+Effective Date: 2025-09-15
+Client Entity: Example Energy Company
+Vendor: ACME Industrial Supplies Ltd.
+
+Scope:
+1. The Vendor shall provide procurement and maintenance services for rotating equipment and spare parts.
+2. Service Level: 99.5% availability for critical spares, response time within 8 hours for Priority-1 incidents.
+
+Pricing & Rates:
+- Standard Labor Rate: SAR 350/hour
+- Emergency Labor Rate: SAR 600/hour
+- Spare Parts markup: 12%
+
+Data Handling:
+- Vendor must comply with Company Data Classification Standard (CONFIDENTIAL).
+- No subcontracting without written approval.
+- Data may not leave Company systems unless explicitly authorized.
+
+Termination:
+- Either party may terminate for convenience with 60 days written notice.
+- Immediate termination for material breach, including data leakage.
+
+This excerpt is for internal review only.

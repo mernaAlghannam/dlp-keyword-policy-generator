@@ -1,0 +1,25 @@
+Subject: Payment Confirmation - Vendor Invoice INV-2026-01472 (CONFIDENTIAL)
+
+Hello Finance Team,
+
+Please process payment for the following invoice related to Master Services Agreement MSA-ACME-2025-09.
+
+Vendor: ACME Industrial Supplies Ltd.
+Vendor ID: VND-ACME-00291
+Invoice No: INV-2026-01472
+PO No: PO-775193
+Cost Center: CC-4102
+Project Code: PRJ-NEOM-UTIL-07
+Amount: SAR 1,248,500.00
+Bank: Gulf National Bank (GNB)
+IBAN: SA00 0000 0000 0000 0000 0000
+SWIFT: GNBSSA00
+
+Attachments:
+- Invoice_INV-2026-01472.pdf
+- Delivery_Acceptance_PRJ-NEOM-UTIL-07.pdf
+
+Confidentiality Notice: This email and any attachments are confidential and intended solely for the addressed recipients.
+
+Regards,
+Accounts Payable

@@ -1,0 +1,18 @@
+﻿# minimal arabic stopwords (extend for your org)
+من
+الى
+في
+على
+عن
+هذا
+هذه
+ذلك
+تلك
+و
+او
+مع
+تم
+كما
+شركة
+إدارة
+قسم

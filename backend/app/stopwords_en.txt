@@ -1,0 +1,26 @@
+# minimal english stopwords (extend for your org)
+the
+and
+or
+for
+with
+from
+this
+that
+are
+was
+were
+have
+has
+had
+into
+onto
+within
+project
+document
+company
+department
+team
+please
+thanks
+regards
