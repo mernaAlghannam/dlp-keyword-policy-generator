@@ -5,7 +5,15 @@ A local prototype that helps you **generate high-signal Symantec DLP keyword rul
 This is designed for DLP teams who want better keyword policies (fewer false positives, fewer missed hits) without relying on brittle, hand-written rules.
 
 ---
+## Preview
 
+<p align="center">
+  <img src="docs/images/img1.png" alt="CSV Dashboard Generator UI" width="900" />
+</p>
+
+<p align="center">
+  <img src="docs/images/img2.png" alt="CSV Dashboard Generator UI" width="900" />
+</p>
 ## What it does
 
 ### 1) Analyze uploaded documents (`/api/analyze`)
