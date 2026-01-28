@@ -8,11 +8,11 @@ This is designed for DLP teams who want better keyword policies (fewer false pos
 ## Preview
 
 <p align="center">
-  <img src="docs/images/img1.png" alt="CSV Dashboard Generator UI" width="900" />
+  <img src="docs/image/img1.png" alt="DLP Policy Generator" width="900" />
 </p>
 
 <p align="center">
-  <img src="docs/images/img2.png" alt="CSV Dashboard Generator UI" width="900" />
+  <img src="docs/image/img2.png" alt="DLP Policy Tester" width="900" />
 </p>
 ## What it does
 
