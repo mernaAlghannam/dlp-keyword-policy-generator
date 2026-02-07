@@ -88,6 +88,7 @@ What it does:
 Run ASP.NET Core MVC (full ML pipeline):
   cd aspnet
   dotnet restore
+  dotnet build
   dotnet run
   open http://localhost:5000
 
