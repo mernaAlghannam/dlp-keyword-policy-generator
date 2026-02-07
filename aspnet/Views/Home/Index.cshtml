@@ -1,0 +1,96 @@
+<section class="card">
+    <h2>1) Analyze Documents</h2>
+    <p>Upload department documents (English/Arabic). Returns topics, candidates, and stats.</p>
+    <form id="analyze-form">
+        <input type="file" name="files" multiple required />
+        <button type="submit">Analyze</button>
+    </form>
+    <pre id="analyze-output" class="output"></pre>
+</section>
+
+<section class="card">
+    <h2>2) Generate Pretty Policy</h2>
+    <p>Paste the analyze payload or custom JSON to generate policy rules.</p>
+    <form id="generate-form">
+        <textarea name="payload" rows="10" placeholder='{"topics": []}'></textarea>
+        <button type="submit">Generate Policy</button>
+    </form>
+    <pre id="generate-output" class="output"></pre>
+</section>
+
+<section class="card">
+    <h2>3) Test Policy</h2>
+    <p>Upload files to test. Provide the policy text returned above.</p>
+    <form id="test-form">
+        <textarea name="policy_text" rows="6" placeholder="Paste generated policy here..."></textarea>
+        <input type="file" name="files" multiple required />
+        <button type="submit">Test Policy</button>
+    </form>
+    <pre id="test-output" class="output"></pre>
+</section>
+
+<script>
+const analyzeForm = document.getElementById("analyze-form");
+const generateForm = document.getElementById("generate-form");
+const testForm = document.getElementById("test-form");
+
+const analyzeOutput = document.getElementById("analyze-output");
+const generateOutput = document.getElementById("generate-output");
+const testOutput = document.getElementById("test-output");
+
+function showLoading(el) {
+    el.textContent = "Loading...";
+}
+
+function formatJson(text) {
+    try {
+        const json = JSON.parse(text);
+        return JSON.stringify(json, null, 2);
+    } catch {
+        return text;
+    }
+}
+
+analyzeForm.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    showLoading(analyzeOutput);
+
+    const formData = new FormData(analyzeForm);
+    const response = await fetch("/api/analyze", {
+        method: "POST",
+        body: formData,
+    });
+
+    const text = await response.text();
+    analyzeOutput.textContent = formatJson(text);
+});
+
+generateForm.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    showLoading(generateOutput);
+
+    const payload = generateForm.querySelector("textarea[name='payload']").value.trim();
+    const response = await fetch("/api/generate_pretty", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: payload || "{}",
+    });
+
+    const text = await response.text();
+    generateOutput.textContent = text;
+});
+
+testForm.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    showLoading(testOutput);
+
+    const formData = new FormData(testForm);
+    const response = await fetch("/api/test_policy", {
+        method: "POST",
+        body: formData,
+    });
+
+    const text = await response.text();
+    testOutput.textContent = formatJson(text);
+});
+</script>

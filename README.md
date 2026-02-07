@@ -85,18 +85,14 @@ What it does:
     - threshold (min matches)
 - Optional: LLM refinement (OpenAI or local HTTP endpoint)
 
-Run backend:
-  cd backend
-  python -m venv .venv
-  source .venv/bin/activate   # Windows: .venv\Scripts\activate
-  pip install -r requirements.txt
-  uvicorn app.main:app --reload --port 8000
+Run ASP.NET Core MVC (full ML pipeline):
+  cd aspnet
+  dotnet restore
+  dotnet run
+  open http://localhost:5000
 
-Run frontend:
-  cd frontend
-  npm install
-  npm run dev
-  open http://localhost:5173
+Notes:
+- The ASP.NET MVC app now hosts the ML pipeline directly; no Python backend is required.
 
 Optional LLM:
   Use no LLM:

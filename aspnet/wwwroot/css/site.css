@@ -1,0 +1,80 @@
+:root {
+    color-scheme: light;
+    font-family: "Segoe UI", system-ui, sans-serif;
+    background: #f5f7fb;
+    color: #1b1f24;
+}
+
+body {
+    margin: 0;
+    background: #f5f7fb;
+}
+
+.site-header {
+    padding: 2rem 1.5rem 1rem;
+    text-align: center;
+    background: #101828;
+    color: #f8f9fb;
+}
+
+.site-header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.subtitle {
+    margin-top: 0.5rem;
+    color: #cdd5df;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 3rem;
+    display: grid;
+    gap: 1.5rem;
+}
+
+.card {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(15, 23, 42, 0.08);
+}
+
+form {
+    display: grid;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #d0d5dd;
+    padding: 0.75rem;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+button {
+    background: #2563eb;
+    color: #ffffff;
+    border: none;
+    padding: 0.65rem 1rem;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+.output {
+    background: #0b1220;
+    color: #d0d5dd;
+    padding: 1rem;
+    border-radius: 8px;
+    overflow-x: auto;
+    min-height: 80px;
+}
